@@ -8,8 +8,8 @@ public abstract class MedioAlojamiento {
     protected int cantidadNoches;
     protected TipoTemporada tipoTemporada;
     protected int valorBaseNoche;
-    final double DESCUENTOBAJA=0.25;
-    final double DESCUENTOMEDIA=0.125;
+    private final double DESCUENTOBAJA=0.25;
+    private final double DESCUENTOMEDIA=0.125;
 
     public MedioAlojamiento() {
     }
